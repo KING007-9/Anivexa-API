@@ -11,7 +11,7 @@ import {
 import { get, set, isFresh, SHOW_IDENTITY_TTL } from "../core/smartcache.js";
 
 const BASE = "https://anidb.app";
-const PROXY = "YOUR_PROXY_URL";
+const PROXY = "https://anidb-proxy.kvngmark007.workers.dev/";
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
 async function fetchTextWithFallback(url, headers = {}) {
